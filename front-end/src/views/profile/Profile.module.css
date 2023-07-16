@@ -1,0 +1,215 @@
+.profileview{
+    
+    height: 745px;
+    width: 30%;
+    background-color: white;
+    opacity: 0.85;
+    background-image: url("../../static/dash123.png");
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    background-position-y: 550px;
+    background-position-x: 210px;
+    
+}
+.proimg{
+    height: 145px;
+    width: 145px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.prname{
+    position: absolute;
+    left : 200px;
+    top : 50px;
+    font-size: 35px;
+    width: 300px;
+
+}
+.prabout{
+    padding: 25px;
+    width: auto;
+    text-align: justify;
+    height: 400px;
+}
+
+.wrdetails{
+    position: absolute;
+    padding: 20px;
+    width: auto;
+    font-size: 15px;
+    top: 80px;
+    left: 180px;
+    color: grey ;
+
+
+}
+
+.pblogs{
+    font-size: 15px;
+    position: absolute;
+    top: 40px;
+    left: 750px;
+    height: 80px;
+    width: 500px;
+    background-color: white;
+    opacity: 0.85;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 30px;
+    transition: 0.2s;
+    background-image: url("../../static/pencils.jpeg");
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    
+}
+.pblogs:hover{
+    transform: scale(1.05);
+}
+.sblogs
+{
+    font-size: 15px;
+    position: absolute;
+    top: 40px;
+    left: 1010px;
+    height: 80px;
+    width: 500px;
+    background-color: white;
+    opacity: 0.85;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 30px;
+    transition: 0.2s;
+    background-image: url("../../static/editing.jpg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position-x: 380px;
+    
+}
+.sblogs:hover{
+    transform: scale(1.05);
+}
+
+.analytics{
+
+    position: absolute;
+    left: 490px;
+    top:20px;
+    height: 750px;
+    width: 1020px;
+    /* background-color: white; */
+    opacity: 0.85;
+    border-radius: 20px;
+    overflow: scroll;
+
+}
+.analytics::-webkit-scrollbar { width: 0 !important }
+.tviews{
+    position: absolute;
+    left: 80px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 250px;
+    height: 70px;
+    background-color:white;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.tviews span{
+    font-size: 30px;
+    font-weight: 800;
+}
+.tblogs{
+    position: absolute;
+    left: 390px;
+    top: 0 px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.tblogs span{
+    font-size: 30px;
+    font-weight: 800;
+}
+.tlikes{
+    position: absolute;
+    left: 700px;
+    top: 0 px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.tlikes span{
+    font-size: 30px;
+    font-weight: 800;
+}
+.analytics1{
+    position: absolute;
+    top: 120px;
+    left : 110px;
+    background-color: white;
+    border-radius: 30px;
+    height: 590px;
+    
+}
+.barChart{
+    position: absolute;
+    top: 60px;
+    
+    padding: 10px;
+    opacity: 0.85;
+}
+.barheader{
+    position: absolute;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+.seanalytics{
+    position: absolute;
+    top: 10px;
+    left: 550px;
+}
+.seanalytics select{
+    padding: 10px;
+    position: absolute;
+    left: 70px;
+    top: -6px;
+    border-radius: 30px;
+}
+
+.pieChar{
+    position: absolute;
+    top: 620px;
+    font-weight: 500;
+    height: 500px;
+    width: 760px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px;
+    overflow: hidden;
+    
+}
+
+.pieChar span{
+    font-size: 50px;
+    font-weight: 900;
+}

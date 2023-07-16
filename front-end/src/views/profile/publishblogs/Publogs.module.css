@@ -1,0 +1,130 @@
+.searchBar {
+    position: absolute;
+    top: 100px;
+    left: 400px
+}
+
+.search {
+    width: 1000px;
+    height: 32px;
+    border-radius: 10px;
+    opacity: 0.7;
+    box-shadow: 0px 0px 20px -5px;
+    border: 2px solid black;
+}
+
+.searchImg {
+    height: 22px;
+    position: absolute;
+    left: 970px;
+    top: 6px;
+}
+
+.searchImg:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.blog_grid {
+
+    position: absolute;
+    left: 150px;
+    top: 130px;
+    height: 600px;
+    overflow-y: scroll;
+
+
+}
+
+.blog_grid table {
+    border-spacing: 50px 20px;
+}
+
+.blog_grid::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.blog {
+
+    height: 900px;
+    width: 1000px;
+
+    border-radius: 10px;
+    padding: 10px;
+    overflow: scroll;
+
+    transition: 0.2s;
+    animation: ease-in;
+
+
+}
+
+.blog :hover {}
+
+.mblog {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 10px;
+
+
+
+}
+
+.titleCont {
+
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+
+.bodyCont {
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.imgCont {
+    height: 220px;
+    border-radius: 10px;
+}
+
+.nblock {
+
+    transition: 0.2s;
+    animation: ease-in;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+
+.nblock:hover {
+    transform: scale(1.2);
+
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.phead {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    position: absolute;
+    color: #4DA6FF;
+    left: 100px;
+    top: 30px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-shadow: 2px 2px 2px #CE5937;
+    
+}

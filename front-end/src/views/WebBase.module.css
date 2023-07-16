@@ -1,0 +1,151 @@
+.base_h1 {
+    background-color: black;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+#logo {
+    height: 100px;
+    width: 200px;
+    gap: 50px 50px;
+}
+
+.mainHeader {
+    height: auto;
+    opacity: 0.5;
+    
+}
+
+.base_h1:hover{
+    color: aqua
+}
+.navBar {
+
+    height: 575px;
+    width: 220px;
+    background-color: white;
+    box-shadow: 10px;
+    border-radius: 20px;
+
+    /* position: absolute; */
+    position: absolute;
+    opacity: 0.5;
+    top: 120px;
+    
+    margin-bottom: 1200px;
+
+}
+
+
+.About {
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    position: absolute;
+    top:110vh;
+}
+
+.copyright {
+    width: 100%;
+    position: absolute;
+    top:35vh;
+    height:7vh;
+    background-color: black;
+}
+
+.fimg {
+    position: absolute;
+    left:25vh;
+    top:3vh;
+}
+
+.info {
+    position: absolute;
+    left:90vh;
+    top:4vh;
+}
+
+.flist {
+    position: relative;
+    top:10px;
+    right:20px;
+    color: rgb(161, 161, 161);
+    padding: 10px;
+}
+
+.flist:hover {
+    color: #f0f0f0;
+    cursor: pointer;
+    -webkit-transition: color 0.2s ease-in-out;
+}
+
+.contact {
+    position: absolute;
+    left:140vh;
+    top:4vh;
+}
+
+.base_ul {
+    list-style-position: inside;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 5px;
+
+}
+
+.base_li {
+
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+    -webkit-transition: background-color 0.3s ease-in-out;
+
+}
+
+.base_li:hover {
+    font-weight: bolder;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+}
+
+/* body {
+
+    background-image: url("../static/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 900px;
+
+} */
+.wrBlog{
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 1350px;
+    top: 10px;
+    border-radius: 30px;
+    
+    font-weight: 800;
+    transition: 0.3s;
+
+}
+
+.wrBlog:hover{
+    outline: 5px solid white;
+    outline-offset: 3px ;
+}

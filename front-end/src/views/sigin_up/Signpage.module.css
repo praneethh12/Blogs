@@ -1,0 +1,114 @@
+.text_center {
+    position: relative;
+    left:60px;
+  }
+
+  .link_primary {
+    color:blue;
+    cursor: pointer;
+  }
+  .link_primary:hover {
+    text-decoration: underline;
+  }
+  .Auth_form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .Auth_form {
+    background-image: url("../../static/signbook.jpg");
+    background-size: 420px 550px;
+    width: 420px;
+    height: 500px;
+    box-shadow: rgb(0 0 0 / 16%) 5px 5px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    background-color: rgb(254, 254, 254);
+    opacity: 0.85;
+
+    
+  }
+  
+  .Auth_form_content {
+    padding-top: 15px;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Auth_form_title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: 620;
+    color: rgb(34, 34, 34);
+  }
+
+  .form_group {
+    size: bold;
+    padding: 4px;
+    padding-left:30px;
+  }
+
+  .form_control {
+    font-size: 11pt;
+    padding: 4px;
+    border: 0.5px rgb(139, 139, 139) solid;
+    border-radius: 7px;
+  }
+
+  .d_grid {
+    padding:12px;
+    padding-left: 70px;
+  }
+  .btn {
+    margin-left: 8px;
+    border-radius:5px;
+    padding:5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: rgb(54, 136, 214);
+    color: white;
+  }
+
+  .btn_reset{
+    margin-left: 15px;
+    border-radius:5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: rgb(54, 136, 214);
+    color: white;
+  }
+
+  .btn:hover{
+    box-shadow: rgb(103, 103, 103) 2px 2px 2px;
+    background-color: chartreuse;
+    color: black;
+  }
+
+  .btn_reset:hover{
+    box-shadow: rgb(103, 103, 103) 2px 2px 2px;
+    background-color: orange;
+    color: black;
+  }
+
+  .tname {
+    padding-left: 35px;
+    font-size: 22px;
+  }
+
+  .auth_pic{
+     padding-left: 30px;
+  }
+
+
